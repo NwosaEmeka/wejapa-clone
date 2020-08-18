@@ -1,0 +1,12 @@
+#014d29 //green
+#535252 // paragrah
+#041705 //footer
+#63c069 //box
+#041705 // header
+
+background: linear-gradient(58.57deg,#27b774 -16.87%,#4dbd42 91.55%);
+
+for the header div
+
+rgba(29,191,105,.12)
+

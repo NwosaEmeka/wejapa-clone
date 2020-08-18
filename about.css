@@ -1,0 +1,239 @@
+h1 {
+	font-size: 3rem;
+	margin-top: 130px;
+}
+h2 {
+	font-size: 2.5rem;
+}
+h3 {
+	font-weight: 600;
+}
+.about__main {
+	color: #fff;
+	height: calc(90vh - 70px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about__intro {
+	padding: 150px;
+	padding-bottom: 60px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #fff;
+	position: relative;
+}
+#about__intro::before {
+	content: "who are we";
+	font-size: 8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #666;
+	opacity: 0.05;
+	position: absolute;
+	left: -30px;
+	top: 60px;
+}
+.text-align {
+	text-align: center;
+}
+
+.about__text {
+	font-size: 2.3rem;
+	font-family: serif;
+	margin-top: 60px;
+	opacity: 0.7;
+}
+#team {
+	padding: 80px 0;
+	overflow: hidden;
+	position: relative;
+}
+#team::before {
+	content: "Our team";
+	font-size: 8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #666;
+	opacity: 0.05;
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+.team__images-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.team__images {
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+.team__image {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.team__image:before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(60, 99, 60, 0.7);
+}
+.member__info {
+	color: #fff;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 1;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.member__info h4 {
+	color: #f4f4f4;
+	font-size: 0.9rem;
+}
+
+.favour-image {
+	background-image: url("./images/team/Favour.jpg");
+}
+.Hauwa-image {
+	background-image: url("./images/team/Hauwa.jpg");
+}
+.Nduulwa-image {
+	background-image: url("./images/team/ndu.jpeg");
+}
+.Felix-image {
+	background-image: url("./images/team/Felix.jpeg");
+}
+.team__images:hover .team__image {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+#advisors {
+	overflow: hidden;
+	margin: 60px 0;
+	position: relative;
+}
+#advisors::before {
+	content: "sory Board";
+	font-size: 8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #666;
+	opacity: 0.05;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.card__wrapper {
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.card {
+	margin: 12px;
+	height: 420px;
+	padding: 60px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.card__image {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 30px;
+}
+.card__image img {
+	display: block;
+	object-fit: contain;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.15);
+	-o-border-radius: 50%;
+}
+.card h3 {
+	font-size: 1.5rem;
+	color: #333;
+	line-height: 1.1;
+	margin-bottom: 8px;
+}
+.card h4 {
+	color: #666;
+	font-family: serif;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.1;
+}
+
+@media (max-width: 1024px) {
+	#about__intro {
+		padding: 150px 60px;
+	}
+}
+@media (max-width: 780px) {
+	.team__images-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#about__intro {
+		padding: 150px 30px;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	.about__text {
+		font-size: 1.9rem;
+	}
+	.card__wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 580px) {
+	.team__images-wrapper {
+		grid-template-columns: 1fr;
+	}
+	.about__main {
+		height: calc(70vh - 70px);
+	}
+	.about__text {
+		font-size: 1.5rem;
+	}
+	.card__wrapper {
+		grid-template-columns: 1fr;
+	}
+	.card__image {
+		height: 200px;
+		width: 200px;
+		margin-bottom: 20px;
+	}
+}

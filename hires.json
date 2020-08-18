@@ -1,0 +1,62 @@
+[
+	{
+		"first_name": "Abigail",
+		"last_name": "Eleojo Makolo",
+		"job_title": "Product Designer",
+		"location": "USA"
+	},
+	{
+		"first_name": "Mfonobong",
+		"last_name": "Umondia",
+		"job_title": "Product Designer",
+		"location": "Canada"
+	},
+	{
+		"first_name": "Ekemini",
+		"last_name": "Mark",
+		"job_title": "Product Designer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Daniel",
+		"last_name": "Anyaegbu",
+		"job_title": "Fullstack Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Alabo",
+		"last_name": "Briggs",
+		"job_title": "Fullstack Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Rotibi",
+		"last_name": "Olamide",
+		"job_title": "Full Stack Web Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Festus",
+		"last_name": "Olusegun",
+		"job_title": "Flutter Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Darrel",
+		"last_name": "Idiagbor",
+		"job_title": "Fullstack Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Daniel",
+		"last_name": "Austin",
+		"job_title": "Fullstack Developer",
+		"location": "Rwanda"
+	},
+	{
+		"first_name": "Darlington",
+		"last_name": "Ekemini",
+		"job_title": "Software Engineer",
+		"location": "Rwanda"
+	}
+]
